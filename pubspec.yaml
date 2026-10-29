@@ -1,0 +1,17 @@
+name: ci_makeup
+description: Centeno, I Bay Make Up Brand store UI.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.18.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
